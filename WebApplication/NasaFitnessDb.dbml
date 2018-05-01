@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="nasafitnessllc" Class="NasaFitnessDbDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=nasafitness.database.windows.net;Initial Catalog=nasafitnessllc;Persist Security Info=True;User ID=dr_nasafitness" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="nasafitnessllcConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.nasafitness" Member="nasafitnesses">
+    <Type Name="nasafitness">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="user_name" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="pass_word" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="access_level" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="company_location" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="company_name" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="email_id" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="administrator" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="position" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.company_details" Member="company_details">
+    <Type Name="company_detail">
+      <Column Name="company_name" Type="System.String" DbType="NVarChar(25)" CanBeNull="true" />
+      <Column Name="location_name" Type="System.String" DbType="NVarChar(25)" CanBeNull="true" />
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

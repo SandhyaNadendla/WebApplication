@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="NasaFitnessDb">
+  <DataContextMoniker Name="/NasaFitnessDbDataContext" />
+  <nestedChildShapes>
+    <classShape Id="d63c4e8b-3ebd-46fe-ac6d-1f81699e8228" absoluteBounds="2, 1.875, 2, 2.5401025390625">
+      <DataClassMoniker Name="/NasaFitnessDbDataContext/nasafitness" />
+      <nestedChildShapes>
+        <elementListCompartment Id="546c00ca-f1a2-485c-89e8-cb3d551a7648" absoluteBounds="2.015, 2.335, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0b70f935-87b2-45e4-9366-8e27e72bd293" absoluteBounds="2.5, 0.5, 2, 1.3862939453125">
+      <DataClassMoniker Name="/NasaFitnessDbDataContext/company_detail" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f5dc2579-1e7d-4367-9a53-f5cc9806f1e3" absoluteBounds="2.515, 0.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
